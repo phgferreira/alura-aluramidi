@@ -20,3 +20,5 @@ onclick do elemento button não é uma função e sim um atributo, ele recebe um
 Toda vez que é colocado () no final da função, a mesma é executada então para atribuir uma função a um elmento é necessário não colocar ().
 
 querySelectorAll() permite selecionar uma lista de vários elementos, basta que todos eles tenham algo em comum, seja elemento, id ou classe.
+
+const informa que uma determinada variável será constante, ou seja, inauterável.
