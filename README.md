@@ -13,3 +13,8 @@ Existe uma convenção de desenvolvedores Javascript que determinam utilizar o n
 document.querySelector('') => Usando o mesmo padrão de busca do CSS (element, #id, .class), é um método de busca que retorna a referência do elemento.
 
 Se o script depente de algum elemento do body do HTML, a tag <script/> precisa estar no final do body porque se ele for lido antes da construção do body os elementos ainda não terão sido criados.
+
+Existe uma política nos navegadores que não permite a execução de códigos que são executados assim que carrega a página.
+
+onclick do elemento button não é uma função e sim um atributo, ele recebe um método utilizando de atribuição.
+Toda vez que é colocado () no final da função, a mesma é executada então para atribuir uma função a um elmento é necessário não colocar ().
