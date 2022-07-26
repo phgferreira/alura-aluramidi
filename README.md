@@ -10,4 +10,6 @@ Também não é recomendado executar o Javascript in-line, ou seja, dentro da ta
 
 Existe uma convenção de desenvolvedores Javascript que determinam utilizar o nome main para o arquivo principal, sempre.
 
-document.querySelector('') => Usando o mesmo padrão de busca do CSS (element, #id, .class), é um método de busca que retorna a referência do elemento
+document.querySelector('') => Usando o mesmo padrão de busca do CSS (element, #id, .class), é um método de busca que retorna a referência do elemento.
+
+Se o script depente de algum elemento do body do HTML, a tag <script/> precisa estar no final do body porque se ele for lido antes da construção do body os elementos ainda não terão sido criados.
