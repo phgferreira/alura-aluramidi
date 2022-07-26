@@ -18,3 +18,5 @@ Existe uma política nos navegadores que não permite a execução de códigos q
 
 onclick do elemento button não é uma função e sim um atributo, ele recebe um método utilizando de atribuição.
 Toda vez que é colocado () no final da função, a mesma é executada então para atribuir uma função a um elmento é necessário não colocar ().
+
+querySelectorAll() permite selecionar uma lista de vários elementos, basta que todos eles tenham algo em comum, seja elemento, id ou classe.
