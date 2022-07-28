@@ -22,3 +22,11 @@ Toda vez que é colocado () no final da função, a mesma é executada então pa
 querySelectorAll() permite selecionar uma lista de vários elementos, basta que todos eles tenham algo em comum, seja elemento, id ou classe.
 
 const informa que uma determinada variável será constante, ou seja, inauterável.
+
+No Javascript é possível fazer uma referência receber uma função anônima
+Ex: const referencia = function() {
+    // Aqui dentro também pode-se utilizar variáveis do escopo externo
+}
+
+Template String é a possibilidade de inserir vavriáveis dentro de uma string, deixando-o dinâmico
+Ex: `texto padrão ${variavel}`
