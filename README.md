@@ -30,3 +30,6 @@ Ex: const referencia = function() {
 
 Template String é a possibilidade de inserir vavriáveis dentro de uma string, deixando-o dinâmico
 Ex: `texto padrão ${variavel}`
+
+1 == "1" é verdadeiro => Compara só o valor
+1 === "1" é falso => Compara também o tipo de valor
