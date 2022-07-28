@@ -4,4 +4,6 @@ function tocaSomPom() {
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
 
-listaDeTeclas[0].onclick = tocaSomPom
+for (i = 0; i < listaDeTeclas.length; i++) {
+    listaDeTeclas[i].onclick = tocaSomPom
+}
